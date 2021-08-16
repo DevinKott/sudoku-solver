@@ -1,0 +1,27 @@
+{
+  "name": "sudoku-solver",
+  "version": "1.0.0",
+  "description": "Solves sudoku using human(?) methods.",
+  "main": "index.js",
+  "scripts": {
+    "test_easy": "node index.js --board 000500008602094000045000600074938160821640350900000870200000400010085006000470901",
+    "test_hard": "node index.js --board 000406000700200390000053004013000049000000000004500002370060010500000000020000700",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevinKott/sudoku-solver.git"
+  },
+  "keywords": [
+    "sudoku"
+  ],
+  "author": "Devin Kott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevinKott/sudoku-solver/issues"
+  },
+  "homepage": "https://github.com/DevinKott/sudoku-solver#readme",
+  "dependencies": {
+    "command-line-args": "^5.2.0"
+  }
+}
